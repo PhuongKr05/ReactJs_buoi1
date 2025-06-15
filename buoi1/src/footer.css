@@ -1,0 +1,73 @@
+.footer {
+  background: #f7f7f7;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.footer-left, .footer-right {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  padding: 0 20px;
+}
+
+.footer-left h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.footer .highlight {
+  color: orange;
+  font-weight: bold;
+}
+
+.footer-right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-right input,
+.footer-right textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.footer-right textarea {
+  border-radius: 20px;
+  resize: none;
+}
+
+.footer-right button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  font-size: 14px;
+}
