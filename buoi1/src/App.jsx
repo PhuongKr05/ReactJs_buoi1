@@ -1,7 +1,7 @@
 import './App.css';
 import Header from "./Header";
 import Section from "./Section";
-import Footer from "./Footer"; 
+import Footer from "./Footer";
 import { useState } from "react";
 
 export default function App() {
