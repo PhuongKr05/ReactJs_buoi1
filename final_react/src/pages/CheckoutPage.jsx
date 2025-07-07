@@ -9,6 +9,7 @@ import {
 } from '../redux/slices/cartSlice';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
+import './CheckoutPage.css';
 
 const CheckoutPage = () => {
   const dispatch = useDispatch();

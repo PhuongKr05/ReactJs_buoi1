@@ -4,6 +4,7 @@ import { fetchProducts } from '../redux/slices/productSlice';
 import { addToCart } from '../redux/slices/cartSlice';
 import ProductDetail from '../components/ProductDetail';
 import { toast } from 'react-toastify';
+import './ProductsPage.css';
 
 const ProductsPage = () => {
   const dispatch = useDispatch();
